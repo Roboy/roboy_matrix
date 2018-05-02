@@ -45,3 +45,18 @@ The output should include `matrix_everloop`and `matrix_regmap`.
 cd ~/
 arecord --duration 5 --rate 16000 --format S16_LE test.wav && aplay ./test.wav
 ```
+## Use
+Clone the repository to your catkin workspace and build it:
+```
+mkdir -p ~/catkin_ws/src
+cd ~/catkin_ws/src
+git clone https://github.com/Roboy/roboy_matrix.git
+cd ..
+catkin_make
+```
+Start required nodes, for example the following will run `roboy_speech_synthesis`, `roboy_speech_recognition`, and `led_control`:
+```
+source ~/catkin_ws/devel/setup.bash
+roslaunch roboy_cognition_manager pi.launch
+```
+Look for the topics/services you need in the output of `rostopic list` and `rosservice list```.
