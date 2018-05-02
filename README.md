@@ -59,4 +59,4 @@ Start required nodes, for example the following will run `roboy_speech_synthesis
 source ~/catkin_ws/devel/setup.bash
 roslaunch roboy_cognition_manager pi.launch
 ```
-Look for the topics/services you need in the output of `rostopic list` and `rosservice list```.
+Look for the topics/services you need in the output of `rostopic list` and `rosservice list`.
