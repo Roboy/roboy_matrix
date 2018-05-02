@@ -11,7 +11,7 @@ password: raspberry
 
 ## Pi Setup
 Currently we are using [Matrix Creator kernel modules](https://github.com/matrix-io/matrixio-kernel-modules) to read/wirte sensor data from the board. The modules are kernel drivers and therefore one can get the data directly usring `regmap` or `libiio`. 
-1. In case you used a fresh image of Raspbian, follow [these instructions](https://github.com/matrix-io/matrixio-kernel-modules/blob/master/README.md). Otherwise, if the image mentioned in pre-requised was used:
+1. In case you used a fresh image of Raspbian, follow [these instructions](https://github.com/matrix-io/matrixio-kernel-modules/blob/master/README.md). Otherwise, if the image mentioned above was used:
 ```
 sudo apt update
 sudo apt upgrade
