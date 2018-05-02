@@ -1,0 +1,12 @@
+<launch>
+	
+	<!-- speech synthesis -->
+	<rosparam command="load" file="$(find speech_synthesis)/yaml/speech_synthesis.yaml" />
+	<node pkg="speech_synthesis" type="tts_server.py" name="speech_synthesis" respawn="true" output="screen"/>
+
+        <node name="matrix_led_control" pkg="led_control" type="leds.py" output="screen" /> 
+	
+	<!-- speech recognition -->
+	<node name="speech_recognize" pkg="roboy_speech_recognition" type="stt_server.py" output="screen" />
+
+</launch>

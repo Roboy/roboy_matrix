@@ -1,0 +1,5 @@
+speech_synthesis:
+  sdkPath: "/home/roboy/cerevoice/cerevoice_sdk_4.0.4_linux_x86_64_python27_14358_beta/"
+  voicePath: "/home/roboy/cerevoice/voices/cerevoice_heather_4.0.0_48k.voice"
+  licensePath: "/home/roboy/cerevoice/license.lic"
+  maxNumberPhonemesBeforeSpeech: 0

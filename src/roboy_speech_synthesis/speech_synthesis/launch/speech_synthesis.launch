@@ -1,0 +1,4 @@
+<launch>
+    <rosparam command="load" file="$(find speech_synthesis)/yaml/speech_synthesis.yaml" />
+    <node pkg="speech_synthesis" type="tts_server.py" name="speech_synthesis" respawn="true" output="screen"/>
+</launch>

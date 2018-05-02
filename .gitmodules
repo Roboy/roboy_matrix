@@ -1,0 +1,12 @@
+[submodule "roboy_speech_synthesis"]
+	path = roboy_speech_synthesis
+	url = https://github.com/Roboy/roboy_speech_synthesis.git
+[submodule "roboy_speech_recognition"]
+	path = roboy_speech_recognition
+	url = https://github.com/Roboy/roboy_speech_recognition.git
+[submodule "roboy_cognition_manager"]
+	path = roboy_cognition_manager
+	url = https://github.com/Roboy/roboy_cognition_manager.git
+[submodule "roboy_matrix_utils"]
+	path = roboy_matrix_utils
+	url = https://github.com/Roboy/roboy_matrix_utils.git
