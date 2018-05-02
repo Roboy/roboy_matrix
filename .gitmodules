@@ -10,3 +10,6 @@
 [submodule "roboy_matrix_utils"]
 	path = roboy_matrix_utils
 	url = https://github.com/Roboy/roboy_matrix_utils.git
+[submodule "roboy_communication"]
+	path = roboy_communication
+	url = https://github.com/Roboy/roboy_communication.git
